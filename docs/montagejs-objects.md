@@ -15,6 +15,8 @@ MontageJS provides a thin veneer over the JavaScript object model: Types are rep
 
 For a succinct comparison, the following examples are equivalent:
 
+### Class Definition A
+
 ```javascript
 function Constructor() {
     ParentConstructor.call(this);
@@ -40,6 +42,9 @@ Object.defineProperty(Constructor.prototype, "property", {
 Constructor.staticMethod = function () {
 };
 ```
+
+### Class Definition A
+
 
 ```javascript
 var Constructor = ParentConstructor.specialize({
